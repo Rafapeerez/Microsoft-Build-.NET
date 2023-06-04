@@ -1,0 +1,3 @@
+[submodule "module4/mslearn-create-razor-pages-aspnet-core"]
+	path = module4/mslearn-create-razor-pages-aspnet-core
+	url = https://github.com/MicrosoftDocs/mslearn-create-razor-pages-aspnet-core.git

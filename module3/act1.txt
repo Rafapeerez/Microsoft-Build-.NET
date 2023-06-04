@@ -1,0 +1,11 @@
+This module talks about basics web accessibility using various tolls that 
+people might use when they browse the web, like:
+	Screen readers.
+	Zoom
+
+Also concerned abaout use tools to gauge the accessibility of our page, like:
+	Contrast checkers
+	Lightouse
+
+Another important pont is ensuring links and images are accessible, like so
+viwe some of ARIA's examples.
