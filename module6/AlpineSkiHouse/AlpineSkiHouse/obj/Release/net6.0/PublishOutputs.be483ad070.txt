@@ -1,0 +1,7 @@
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\AlpineSkiHouse.exe
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\AlpineSkiHouse.dll
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\AlpineSkiHouse.deps.json
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\AlpineSkiHouse.runtimeconfig.json
+C:\Users\rapeo\source\repos\AlpineSkiHouse\AlpineSkiHouse\obj\Release\net6.0\PubTmp\Out\AlpineSkiHouse.pdb

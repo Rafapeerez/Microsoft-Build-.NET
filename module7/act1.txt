@@ -1,0 +1,2 @@
+This module's goals was to introduce .NET, to understand what .NET is and the ecosystem.
+It's about how it works, how to use and when have to use .NET. (basically always because is a Microsoft course)

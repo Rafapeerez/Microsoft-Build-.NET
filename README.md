@@ -16,7 +16,17 @@ Unable to find an OpenAPI description
 And I said, okey i have to trust https certs with "dotnet dev-certs https --trust" and 2 hours (with a lot of errors) later I read that is not compatible with Ubuntu 20.04 and I found a BRILLIANT repo that solve the problem that I want to share: https://github.com/BorisWilhelms/create-dotnet-devcert THANKS YOU
 
 - MODULE6: Publish a web app to Azure with Visual Studio
-- MODULE7: Introduction to .NET
-- MODULE8: Create a new .NET project and work with dependencies
-- MODULE9: Interactively debug .NET apps with the Visual Studio Code debugger
+This module start with problems, I need to work in Windows to be able to install Visual Studio (is not the same Visual Studio Code) because it is not compatible
+with Ubuntu. If I want to work with th IDE of Visual, I would have to configure my Visual Studio Code.
+I have installed Visual Studio 2022 because the module was geared to work with this IDE. Finally I could complete without problems all the steps.
+To launch the project in Azure, the course offers a sandbox to prove  during 3 hours and 10 tries per day.
 
+- MODULE7: Introduction to .NET
+I don't understand why at this point in the course we have an Introduction to .NET when we have already created some projects with his technologie.
+I completed it and I pushed a summary in a .txt to the folder, anyway, no more.
+
+- MODULE8: Create a new .NET project and work with dependencies
+This module has not technique part, I have created an project example to work with depencies and their version. It is a lot of teoric part explaining major version, minor version and patch version.
+
+- MODULE9: Interactively debug .NET apps with the Visual Studio Code debugger
+Module 9 is a very small Fibonacci project that I was able to experiment with in the debugger. I used it to fix my .NET programs. Also, I have learned how to use System.Diagnostic.Debug and System.Diagnostic.Trace, as well as different methods of these classes.

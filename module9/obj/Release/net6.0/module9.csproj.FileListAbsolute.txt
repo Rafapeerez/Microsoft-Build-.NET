@@ -1,0 +1,15 @@
+/home/rafa/module9/bin/Release/net6.0/module9
+/home/rafa/module9/bin/Release/net6.0/module9.deps.json
+/home/rafa/module9/bin/Release/net6.0/module9.runtimeconfig.json
+/home/rafa/module9/bin/Release/net6.0/module9.dll
+/home/rafa/module9/bin/Release/net6.0/module9.pdb
+/home/rafa/module9/obj/Release/net6.0/module9.csproj.AssemblyReference.cache
+/home/rafa/module9/obj/Release/net6.0/module9.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafa/module9/obj/Release/net6.0/module9.AssemblyInfoInputs.cache
+/home/rafa/module9/obj/Release/net6.0/module9.AssemblyInfo.cs
+/home/rafa/module9/obj/Release/net6.0/module9.csproj.CoreCompileInputs.cache
+/home/rafa/module9/obj/Release/net6.0/module9.dll
+/home/rafa/module9/obj/Release/net6.0/refint/module9.dll
+/home/rafa/module9/obj/Release/net6.0/module9.pdb
+/home/rafa/module9/obj/Release/net6.0/module9.genruntimeconfig.cache
+/home/rafa/module9/obj/Release/net6.0/ref/module9.dll
