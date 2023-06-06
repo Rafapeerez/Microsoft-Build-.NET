@@ -1,0 +1,17 @@
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/mslearn-dotnet-files
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/mslearn-dotnet-files.deps.json
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/mslearn-dotnet-files.runtimeconfig.json
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/mslearn-dotnet-files.dll
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/mslearn-dotnet-files.pdb
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.csproj.AssemblyReference.cache
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.AssemblyInfoInputs.cache
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.AssemblyInfo.cs
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.csproj.CoreCompileInputs.cache
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.dll
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/refint/mslearn-dotnet-files.dll
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.pdb
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.genruntimeconfig.cache
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/ref/mslearn-dotnet-files.dll
+/home/rafa/module10/mslearn-dotnet-files/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/rafa/module10/mslearn-dotnet-files/obj/Debug/net6.0/mslearn-dotnet-files.csproj.CopyComplete

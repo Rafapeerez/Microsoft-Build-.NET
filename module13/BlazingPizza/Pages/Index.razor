@@ -1,0 +1,74 @@
+@page "/"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@using BlazingPizza.Services
+@inject OrderState OrderState
+
+<!-- Pizzas Layout -->
+<div class="main">
+  <h1>Blazing Pizzas</h1>
+  <ul class="pizza-cards">
+    @if (specials != null){
+      @foreach (var special in specials){
+        <li @onclick="@(() => OrderState.ShowConfigurePizzaDialog(special))" style="background-image: url('@special.ImageUrl')">          
+          <div class="pizza-info">
+              <span class="title">@special.Name</span>
+                  @special.Description
+                <span class="price">@special.GetFormattedBasePrice()</span>
+          </div>
+        </li>
+      }
+    }
+  </ul>
+</div>
+
+
+@if (OrderState.ShowingConfigureDialog){
+  <ConfigurePizzaDialog 
+    Pizza="OrderState.ConfiguringPizza"
+    OnCancel="OrderState.CancelConfigurePizzaDialog"
+    OnConfirm="OrderState.ConfirmConfigurePizzaDialog" />
+}
+
+<!-- This HTML adds a sidebar to the page --> 
+<div class="sidebar">
+  @if (order.Pizzas.Any()){ // If ther are ani pizzas in OrderState.Order it displays them
+      <div class="order-contents">
+          <h2>Your order</h2>
+          @foreach (var configuredPizza in order.Pizzas)
+          {
+            <div class="cart-item">
+                <div class="title">@(configuredPizza.Size)" @configuredPizza.Special.Name</div>
+                <div class="item-price">
+                  @configuredPizza.GetFormattedTotalPrice()
+                </div>
+                <a @onclick="@(() => OrderState.RemoveConfigurePizza(configuredPizza))" class="delete-item">x</a> 
+            </div>
+            
+          }
+      </div>
+  }
+  else{ //If there are no orders customers are prompted to add someone.
+      <div class="empty-cart">Choose a pizza<br>to get started</div>
+  }
+  <div class="order-total @(order.Pizzas.Any() ? "" : "hidden")">
+      Total:
+      <span class="total-price">@order.GetFormattedTotalPrice()</span>
+      <a href="checkout" class="@(OrderState.Order.Pizzas.Count == 0 ? "btn btn-warning disabled" : "btn btn-warning")">Order ></a>
+  </div>
+</div>
+
+@code {
+  List<PizzaSpecial> specials = new List<PizzaSpecial>(); //List of pizzas
+  Order order => OrderState.Order; //Collect the orders
+
+  //This function makes an HTTP request using the HttpClient to get a list of PizzaSpecial objects in JSON format from a specific URL. 
+  //The result of the request is assigned to the variable specials.
+
+  //The OnInitializedAsync method is overridden to provide a custom implementation. This method is executed when the component is being initialized.
+  protected override async Task OnInitializedAsync(){
+    //The use of the await keyword indicates that the request is being made asynchronously. 
+    //This allows method execution to be suspended until the request is complete and a response is received.
+      specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>(NavigationManager.BaseUri + "specials");
+  }
+}

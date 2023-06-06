@@ -30,3 +30,24 @@ This module has not technique part, I have created an project example to work wi
 
 - MODULE9: Interactively debug .NET apps with the Visual Studio Code debugger
 Module 9 is a very small Fibonacci project that I was able to experiment with in the debugger. I used it to fix my .NET programs. Also, I have learned how to use System.Diagnostic.Debug and System.Diagnostic.Trace, as well as different methods of these classes.
+
+- MODULE10: Work with files and directories in a .NET app
+This module teach us basically how to work with files and directories. My Program.cs is all commented(all the most important functions that allow work with files and directories) except a function that I think is the most complete that has a little of everything.
+This project is cloned to follow the course and to work with the files and directories created. (https://github.com/MicrosoftDocs/mslearn-dotnet-files)
+
+- MODULE11: Introduction to Web Development with Blazor
+The module introduce Blazor, a user-interface framework for .NET and Razor. As we already know, Razor is a format that can contain a mix of C# code and HTML. It also explain the two differents types of Blazor exists, Blazor WebAssembly and Blazor Server, when to use this framework and the advantages and disadvantages.
+There is no folder for this module because the explanation wasn't long.
+
+- MODULE12: Build a web app with Blazor
+This module has been the one that I have liked the most, I have created a Blazor project with "dotnet new blazorserver -f net6.0", then I launched it to see how it was with "dotnet run watch" and following th course I have created a new component with "dotnet new razorcomponent -n {name} -o {path/ubication}". Finally I did a basic TO-DO list with this framework that is better and easily than I expected.
+
+- MODULE13: Interact with data in Blazor web apps
+I liked a lot this module too because it is very complete, useful and very visual. On the other hand, sometimes there are parts of code that it is "Ctrl+C, Ctrl+V" if you want that it works. By this I mean that I have to go to other sources of information to know what the code does.  It consists in clone the github repo(https://github.com/MicrosoftDocs/mslearn-interact-with-data-blazor-web-apps.git) and create an UI working with components,  services, access and share data and bind this data with UI. Honestly, the final result is aweasome but it takes time to inderstand the code (is not the 59 minutes that the course says)
+
+- MODULE14: Use pages, routing, and layouts to improve Blazor navigation
+- MODULE15: Improve how forms and validation work in Blazor web apps
+- MODULE16: Buid rich interactive components with Blazor web apps
+- MODULE17: Build reusable components with Blazor
+- MODULE18: Build Connect Four game with Blazor
+- MODULE19: Externalize the configuration of an ASP.NET app by using an Azure key vault
