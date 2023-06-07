@@ -46,7 +46,14 @@ This module has been the one that I have liked the most, I have created a Blazor
 I liked a lot this module too because it is very complete, useful and very visual. On the other hand, sometimes there are parts of code that it is "Ctrl+C, Ctrl+V" if you want that it works. By this I mean that I have to go to other sources of information to know what the code does.  It consists in clone the github repo(https://github.com/MicrosoftDocs/mslearn-interact-with-data-blazor-web-apps.git) and create an UI working with components,  services, access and share data and bind this data with UI. Honestly, the final result is aweasome but it takes time to inderstand the code (is not the 59 minutes that the course says)
 
 - MODULE14: Use pages, routing, and layouts to improve Blazor navigation
+It explains how to navigate between different pages and use the URL to guide the customer, how to pass constraint parameters in the URL and hoe to build reusable Blazor components using layouts.
+Start by cloning thus repo (https://github.com/MicrosoftDocs/mslearn-blazor-navigation.git), basically is the same project we finish in the last module with some new files and the challenge is to redirect and create some error pages.  
+The project gives an error because when I go to read the content of the JSON that should be passed with the order values, it does not read them because I am not sure if it is passed empty or the order values are not passed correctly. I have been trying for a few hours trying to solve it but I cannot find it, so I am going to continue with the course that I have a few days left until the end of the period to finish it.I don't understand why this happens because I have even tried doing copy-paste from the code provided and it doesn't work. When I finished all the course I will return to this module to try to fix it.
+
 - MODULE15: Improve how forms and validation work in Blazor web apps
+The first thing I want to say is that here the redirect and JSON pass well(HAVING EXACTLY THE SAME) and the last module no, same old shit anyway. In this module I learn different event handlers and how ato fire it, how to focus, the component EditForm and how take advantage and validate forms.
+I have to say that I like a lot the way that Blazor has to validate forms, it is very comfortable. 
+
 - MODULE16: Buid rich interactive components with Blazor web apps
 - MODULE17: Build reusable components with Blazor
 - MODULE18: Build Connect Four game with Blazor
