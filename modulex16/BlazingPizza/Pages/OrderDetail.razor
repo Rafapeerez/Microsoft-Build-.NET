@@ -1,0 +1,85 @@
+@page "/myorders/{orderId:int}"
+@implements IDisposable //The @implements declaration lets you define a Dispose method.
+@inject NavigationManager NavigationManager
+@inject HttpClient HttpClient
+
+<div class="main">
+    @if (invalidOrder){
+        <h2>Order not found</h2>
+        <p>We're sorry but this order no longer exists.</p>
+    }
+    else if (orderWithStatus is null){
+        <div class="track-order">
+            <div class="track-order-title">
+                <h2>
+                    <text>Loading...</text>
+                </h2>
+            </div>
+        </div>
+    }
+    else{
+        <div class="track-order">
+            <div class="track-order-title">
+                <h2>
+                    Order placed @orderWithStatus.Order.CreatedTime.ToLongDateString()
+                </h2>
+                <p class="ml-auto mb-0">
+                    Status: <strong>@orderWithStatus.StatusText</strong>
+                </p>
+            </div>
+            <div class="track-order-body">
+                <div class="track-order-details">
+                    @if (isOrderIncomplete){
+                        <div class="spinner-grow text-danger float-right" role="status">
+                            <span class="sr-only">Checking your order status...</span>
+                        </div>
+                    }
+                    @foreach (var pizza in orderWithStatus.Order.Pizzas){
+                        <p>
+                            <strong>
+                                @(pizza.Size)"
+                                @pizza.Special!.Name
+                                (£@pizza.GetFormattedTotalPrice())
+                            </strong>
+                        </p>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public int OrderId { get; set; }
+
+    OrderWithStatus? orderWithStatus;
+    bool invalidOrder = false;
+    bool isOrderIncomplete => orderWithStatus is null ||  orderWithStatus.IsDelivered == false;
+    PeriodicTimer timer = new(TimeSpan.FromSeconds(3));
+    protected override async Task OnParametersSetAsync() => await GetLatestOrderStatusUpdatesAsync();
+    //This code now calls the GetLatestOrderStatusUpdatesAsync method to update the order status.
+
+    protected override Task OnAfterRenderAsync(bool firstRender) => firstRender ? StartPollingTimerAsync() : Task.CompletedTask;
+
+    async Task GetLatestOrderStatusUpdatesAsync(){
+        try{
+            orderWithStatus = await HttpClient.GetFromJsonAsync<OrderWithStatus>($"{NavigationManager.BaseUri}orders/{OrderId}");
+        }
+        catch (Exception ex){
+            invalidOrder = true;
+            Console.Error.WriteLine(ex);
+        }
+    }
+
+    //The StartPollingTimerAsync function uses a PeriodicTimer to asynchronously wait for the next tick, while the order status is incomplete.
+    async Task StartPollingTimerAsync(){
+        while (isOrderIncomplete && await timer.WaitForNextTickAsync()){
+            await GetLatestOrderStatusUpdatesAsync();
+            StateHasChanged();
+        }
+    }
+
+    public void Dispose() => timer.Dispose();
+
+        
+}

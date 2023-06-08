@@ -55,6 +55,15 @@ The first thing I want to say is that here the redirect and JSON pass well(HAVIN
 I have to say that I like a lot the way that Blazor has to validate forms, it is very comfortable. 
 
 - MODULE16: Buid rich interactive components with Blazor web apps
+First of all, I had problems running the repository I had cloned (https://github.com/MicrosoftDocs/mslearn-build-interactive-components-blazor.git) because the course is constantly changing the version .NET to run, we went from running the program in version 6 to version 7. 
+The firts unit explains how to insert some JavaScript libraris in our code, next explains the lifecycle of the components and how is there function called, and the last unit is about reuse components by creating templates.
+
 - MODULE17: Build reusable components with Blazor
-- MODULE18: Build Connect Four game with Blazor
+This module has been short, I have built and packaged a Blazor Conponents to use it in a Blazor application. I have created the library with "dotnet new razorclasslib -o FirstClassLibrary -f net6.0" then the Blazor Server "dotnet new blazorserver -o MyBlazorServer -f net6.0" and for last I referenced the library to the server with "dotnet add reference ../FirstClassLibrary".
+
+
+- MODULE18: Build Connect Four game with Blazor.
+Oh god, this module looks funny and then its sucks. First of all the exercises are explained to do with Visual Studio 2022 (again), to people who wants do in terminal to create a WebAssembly Blazor Project is with "dotnet new blazorwasm". Furthemore, that "programming the game" thing is in quotes. They give you all the logic, and a CSS code (it's essential for the pieces to fall) well, spoiler, they give it to you wrong. You have to change CSS variables so that the pieces fall centered and stay in the position that they have (many hours with browser inspector).
+Finally I push what I can if I want to continue with the course before it ends (11 days), at least one game can be played.
+
 - MODULE19: Externalize the configuration of an ASP.NET app by using an Azure key vault

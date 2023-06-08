@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "O0ohh2BXcQi5el1OM6/gL0AWCTD5M0UhZxBylfKveSZ7ZSusrboAbaXIjitaxKF0kM0fZio9KD1olcdaHHcOKQ==",
+  "success": true,
+  "projectFilePath": "/home/rafa/modulex17/MyBlazorServer/MyBlazorServer.csproj",
+  "expectedPackageFiles": [
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.authorization/6.0.16/microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.components/6.0.16/microsoft.aspnetcore.components.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.16/microsoft.aspnetcore.components.analyzers.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.16/microsoft.aspnetcore.components.forms.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.components.web/6.0.16/microsoft.aspnetcore.components.web.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.metadata/6.0.16/microsoft.aspnetcore.metadata.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.3/microsoft.extensions.logging.abstractions.6.0.3.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.jsinterop/6.0.16/microsoft.jsinterop.6.0.16.nupkg.sha512",
+    "/home/rafa/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
+    "/home/rafa/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

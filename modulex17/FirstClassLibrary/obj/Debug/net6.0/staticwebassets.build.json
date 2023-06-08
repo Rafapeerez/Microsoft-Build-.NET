@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "NKHSXNajsLUu/AGchKCfZg5HLywLjHbq3/TLXkfnTkM=",
+  "Source": "My.FirstClassLibrary",
+  "BasePath": "_content/My.FirstClassLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "My.FirstClassLibrary/wwwroot",
+      "Source": "My.FirstClassLibrary",
+      "ContentRoot": "/home/rafa/modulex17/FirstClassLibrary/wwwroot/",
+      "BasePath": "_content/My.FirstClassLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/bundle/My.FirstClassLibrary.styles.css",
+      "SourceId": "My.FirstClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/My.FirstClassLibrary",
+      "RelativePath": "My.FirstClassLibrary.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/bundle/My.FirstClassLibrary.styles.css"
+    },
+    {
+      "Identity": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/projectbundle/My.FirstClassLibrary.bundle.scp.css",
+      "SourceId": "My.FirstClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/My.FirstClassLibrary",
+      "RelativePath": "My.FirstClassLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/rafa/modulex17/FirstClassLibrary/obj/Debug/net6.0/scopedcss/projectbundle/My.FirstClassLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/rafa/modulex17/FirstClassLibrary/wwwroot/background.png",
+      "SourceId": "My.FirstClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rafa/modulex17/FirstClassLibrary/wwwroot/",
+      "BasePath": "_content/My.FirstClassLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/background.png"
+    },
+    {
+      "Identity": "/home/rafa/modulex17/FirstClassLibrary/wwwroot/exampleJsInterop.js",
+      "SourceId": "My.FirstClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/rafa/modulex17/FirstClassLibrary/wwwroot/",
+      "BasePath": "_content/My.FirstClassLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/exampleJsInterop.js"
+    }
+  ]
+}
