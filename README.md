@@ -66,4 +66,43 @@ This module has been short, I have built and packaged a Blazor Conponents to use
 Oh god, this module looks funny and then its sucks. First of all the exercises are explained to do with Visual Studio 2022 (again), to people who wants do in terminal to create a WebAssembly Blazor Project is with "dotnet new blazorwasm". Furthemore, that "programming the game" thing is in quotes. They give you all the logic, and a CSS code (it's essential for the pieces to fall) well, spoiler, they give it to you wrong. You have to change CSS variables so that the pieces fall centered and stay in the position that they have (many hours with browser inspector).
 Finally I push what I can if I want to continue with the course before it ends (11 days), at least one game can be played.
 
-- MODULE19: Externalize the configuration of an ASP.NET app by using an Azure key vault
+- MODULE19/20/21: Externalize the configuration of an ASP.NET app by using an Azure key vault,implment logging and immprove session scalability by using Azure Cache for Redis.
+These 3 modules dont have folders in the repository because the configuration has been all the time by terminal. There is also a sandbox for azure that is given by the course. In the first two modules  I have used ConfigurationBuilder to retrieve access keys from the Azure keystore at runtime as well as the mechanism for this. I have also seen why logging is important to record and monitor application activities and how to implement them with Azure Blob Storage.
+Finally, I have learned how to use Azure Cache for Redis to store session data and improve the scalability of web applications.
+
+- MODULE22: Build a web API with minimal API, ASP.NET Core, and .NET
+This module has been short but very useful. Its about how implement an easy API with little code, using the minimal template of Net6.0. Also I have used Swagger by addding like a new package. Created using "dotnet new web -o Pizza -f net6.0"
+
+- MODULE23: Use a database with minimal API, Entity Framework Core, and ASP.NET Core
+This module has been interesting connecting a minimal API with a SQLite database to persist data. To create the databse I needed install Microsoft.EntityFrameworkCore.Design (among many other packages that can see in PizzaStore.csj). When the conection string is prepared, is needed to create Migrations folder with "dotnet ef migrations add InitialCreate" and finally "dotnet ef database update" to apply migrations.
+To access and try the CRUD operations created, you must do a "dotnet run" adn go to http://localhost:{PORT}/swagger.
+
+- MODULE24: Create a full stack application by using React and minimal API for ASP.NET Core
+
+
+- MODULE25: Build your first microservice with .NET 
+
+
+- MODULE26: Deploy a .NET microservice to Kubernetes
+
+
+- MODULE27: Create and deploy a cloud-native ASP.NET Core microservice
+
+
+- MODULE28: Implement resiliency in a cloud-native ASP.NET Core microservice 
+
+
+- MODULE29: Instrument a cloud-native ASP.NET Core microservice
+
+
+- MODULE30: Implement feature flags in a cloud-native ASP.NET Core microservices app
+
+
+- MODULE31: Use managed data stores in a cloud-native ASP.NET Core microservices app
+
+
+- MODULE32: Understand API gateways in a cloud-native ASP.NET Core microservices app
+
+
+- MODULE33: Deploy a cloud-native ASP.NET Core microservice with GitHub Actions
+
