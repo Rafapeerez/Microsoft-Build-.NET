@@ -78,10 +78,12 @@ This module has been interesting connecting a minimal API with a SQLite database
 To access and try the CRUD operations created, you must do a "dotnet run" adn go to http://localhost:{PORT}/swagger.
 
 - MODULE24: Create a full stack application by using React and minimal API for ASP.NET Core
-
+There is an error like this "npm ERR! Cannot read properties of null (reading 'edgesOut')" installing styled-components. I have used npm instead of yarn and what you hav to do to avoid having the error is install an specific version doing "npm install styled-components@5.3.10".
+There is a second bug that is from the repository that the course makes you clone (https://github.com/MicrosoftDocs/minimal-api-work-with-databases). If you do what the module said, you will see an error saying that "JSON.parse: unexpected character at line 1 column 1 of the JSON data". That's because on line 38 of Program.cs it is doing the Get to /pizza while on frontend it is doing to /pizzas. If you change the line 38 to this "app.MapGet("/pizzas", async(PizzaDb db) => await db.Pizzas.ToListAsync());" it will go well.
+This moodule is about how to connect a frontend app with an API, using CORS and doing by steps. Fisrt doing the frontend, second launching a mock API with "npx json-server --watch --port 5000 db.json" and adding to the package.json the property proxy, in this case port 5000. And fiinally with an API created using .NET, doing first of all the "dotnet ef database update" then "dotnet run" and changing poxy to port indicate, in this case :5059.
 
 - MODULE25: Build your first microservice with .NET 
-
+I did not like this module, at a theoretical level about what a microservice is it is quite complete, but I did not like the practical exercise nor does it clarify anything, you only use Docker and Docker Compose and it is not very well explained.
 
 - MODULE26: Deploy a .NET microservice to Kubernetes
 
