@@ -84,6 +84,8 @@ This moodule is about how to connect a frontend app with an API, using CORS and 
 
 - MODULE25: Build your first microservice with .NET 
 I did not like this module, at a theoretical level about what a microservice is it is quite complete, but I did not like the practical exercise nor does it clarify anything, you only use Docker and Docker Compose and it is not very well explained.
+The first exercise has been to create the DockerFile, do "docker build -t pizzabackend ." and then "docker build -t pizzabackend .". The second will create the docker-compose.yml by doing a "docker compose build" and a "docker compose build".
+Finally to see the pizza menu is at http://localhost:5902
 
 - MODULE26: Deploy a .NET microservice to Kubernetes
 
