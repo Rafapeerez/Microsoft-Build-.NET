@@ -88,25 +88,27 @@ The first exercise has been to create the DockerFile, do "docker build -t pizzab
 Finally to see the pizza menu is at http://localhost:5902
 
 - MODULE26: Deploy a .NET microservice to Kubernetes
-
+In this module I have learned how to deploy a .NET application already partioned into containerized microservices into Kubernetes environment. I first pushed the Docker images to Docker Hub to make the images available to the Kubernetes instance to download. I also have learned how to scale it using Kubernetes. 
 
 - MODULE27: Create and deploy a cloud-native ASP.NET Core microservice
-
+This module doesn't have folder because to work and do the exercises I have to insert my credit card to have a free trial in Azure. I prefer not to do it and see only the theoretical part.
+Basically, the module is about implementing a coupon microservice in an online e-commerce made using microservices. The code runs in AKS (Azure Kubernetes Service) and the Docker image is pulished in Azure Container Regisitry. 
+I would like to have been able to carry out this practical module because it is quite interesting and resembles reality. If someone who reads this (I think no one will ever get here) knows how to do it so that they don't have to enter bank details, contact me on Twitter (I have it in my personal README).
 
 - MODULE28: Implement resiliency in a cloud-native ASP.NET Core microservice 
-
+What happens in the previous module happens in this, it is neccessary to have Azure Suscription, so I can't do practice.
+This module is about the resiliency, both as Code-based resiliency as Infraestucture-based resiliency. It implements the method to have good resiliency in the service made in the previous module using Polly and Linkerd.
 
 - MODULE29: Instrument a cloud-native ASP.NET Core microservice
-
-
 - MODULE30: Implement feature flags in a cloud-native ASP.NET Core microservices app
-
-
 - MODULE31: Use managed data stores in a cloud-native ASP.NET Core microservices app
-
-
 - MODULE32: Understand API gateways in a cloud-native ASP.NET Core microservices app
-
-
 - MODULE33: Deploy a cloud-native ASP.NET Core microservice with GitHub Actions
+I'm upset that all the modules are remain to be done require to have the Azure Sucription. I refuse to have to insert my credit card to complete my course. Meanwhile, I'm going to continue doing the course because there are 6 days left until the course ends and at least I learn something more about microservices even if I don't do the practice.I guess I'll come back when I have more time to finish and do the practical part, I'll register or look for an alternative more carefully. 
+In any case, I leave small summaries of all the modules to know what they are about.
+(29) --> The module  focuses on the review of logging and monitoring in microservices architectures. It  discusses the importance of structured logging, centralized logging, and log correlation, and  also covers various logging and monitoring tools such as Azure Monitor, Application Insights, and ELK stack. The module emphasizes the need for comprehensive logging strategies to enable effective troubleshooting and monitoring of microservices applications.  
+(30) -->
+(31) -->
+(32) -->
+(33) -->  
 

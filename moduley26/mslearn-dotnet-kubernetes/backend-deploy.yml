@@ -1,0 +1,39 @@
+#The first portion defines a deployment spec for the container that will be deployed into Kubernetes. 
+#It specifies there will be one replica, where to find the container image, which ports to open on the container, and sets some environment variables.
+#This first portion also defines labels and names that the container and spec can be referenced by.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pizzabackend
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pizzabackend
+    spec:
+      containers:
+      - name: pizzabackend
+        image: rafapeerez/pizzabackend:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://*:80
+  selector:
+    matchLabels:
+      app: pizzabackend
+
+#The second portion then defines that the container will run as a Kubernetes ClusterIP. 
+#For this module, you don't need to understand all of the specifics of ClusterIPs, but do know that this type of service doesn't expose an external IP address.
+#It's only accessible from other services running from within the same Kubernetes cluster.
+apiVersion: v1
+kind: Service
+metadata:
+  name: pizzabackend
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: pizzabackend
