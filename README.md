@@ -99,9 +99,13 @@ What happens in the previous module happens in this, it is neccessary to have Az
 This module is about the resiliency, both as Code-based resiliency as Infraestucture-based resiliency. It implements the method to have good resiliency in the service made in the previous module using Polly and Linkerd.
 
 **- MODULE29: Instrument a cloud-native ASP.NET Core microservice**
+
 **- MODULE30: Implement feature flags in a cloud-native ASP.NET Core microservices app**
+
 **- MODULE31: Use managed data stores in a cloud-native ASP.NET Core microservices app**
+
 **- MODULE32: Understand API gateways in a cloud-native ASP.NET Core microservices app**
+
 **- MODULE33: Deploy a cloud-native ASP.NET Core microservice with GitHub Actions**
 I'm upset that all the modules are remain to be done require to have the Azure Sucription. I refuse to have to insert my credit card to complete my course. Meanwhile, I'm going to continue doing the course because there are 6 days left until the course ends and at least I learn something more about microservices even if I don't do the practice.I guess I'll come back when I have more time to finish and do the practical part, I'll register or look for an alternative more carefully. 
 In any case, I leave small summaries of all the modules to know what they are about.
