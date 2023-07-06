@@ -1,3 +1,6 @@
+# Microsoft Build: .NET
+![Microsoft Build](./Dotnet.jpg)
+
 I'm going to use this README to cry telling you my story doing the course, so if you're doing the course and reading this, you'll probably find a solution to some problem or other, or just read my cries.
 
 This course that I have started was free due to an agreement between universities, including the UCO. While I'm doing the course I upload everythin to GitHub separate by the differents modules of 
